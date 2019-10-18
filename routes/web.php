@@ -44,3 +44,16 @@ Route::post('/brand/proses', 'BrandController@proses');
 
 Route::get('/upload', 'UploadController@upload');
 Route::post('/upload/proses', 'UploadController@proses_upload');
+
+
+Route::post('/user', 'UserController@store');
+Route::get('/user/paginate', 'UserController@paginate');
+Route::get('/user/{id}', 'UserController@show');
+Route::get('/user', 'UserController@view');
+// Route::get('/user/create', 'UserController@create');
+
+Route::get('vue', function () {
+	return view('vue');
+});
+
+

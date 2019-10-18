@@ -6,7 +6,7 @@
                     <div class="panel-heading">Example Component</div>
 
                     <div class="panel-body">
-                        I'm an example component!
+                        ini adalah contoh Component 
                     </div>
                 </div>
             </div>
